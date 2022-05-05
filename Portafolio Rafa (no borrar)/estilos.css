@@ -1,0 +1,90 @@
+body,html{
+    background-color: #F6A374;
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: #FFCC99;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+.ungrid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+section{
+    background-color: #FFCC99;
+    border: 3px solid black;
+    width: 100%;
+    height: 100%;
+   
+}
+aside{
+    background-color: #FFCC99;
+    border: 3px solid black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    background-color: #FFCC99;
+    position: absolute;
+    border: 3px solid black;
+    bottom: -15%;
+    width: 97%;
+    height: 55px;
+}
+.texto{
+text-align: justify;
+
+}
+
+.android{
+    position: absolute;
+    left: 55%;
+}
+
+.habilidades{
+    border-top: 2px solid black;
+    height: 40%;
+}
+
+.ios{
+    position: absolute;
+    left: 10%;
+}
+
+.lenguaj{
+    border-top: 2px solid black;
+}
+
+.visual{
+    position: absolute;
+    left: 5%;
+}
+
+.vss{
+    position: absolute;
+    left: 30%;
+}
+.as{
+    position:absolute;
+    left: 60%;
+}
+.nb{
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+}
+.msq{
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+}
